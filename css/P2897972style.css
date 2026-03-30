@@ -1,0 +1,212 @@
+h2{
+    color:#574750;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:40px;
+}
+
+.style-btn{
+    background-color:#2b2327;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border: radius 5px;
+    font-size:35px;
+    cursor:pointer;
+    height:auto;
+    max-width:100%;
+    width:100%;
+    border-radius:40px;
+    
+}
+
+body{
+    background-color:rgb(203, 197, 189);
+       
+}
+
+main{
+    margin-left:20px;
+    margin-right:20px;
+    height:100%;
+    margin:0;
+    display:grid;
+    place-items: center;
+
+}
+
+
+.navigation{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #2b2327;
+    padding:10px 20px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.logo-img{
+    height:100px;
+    width:auto;
+}
+
+.login-img{
+    width:auto;
+    height:90px;
+
+}
+
+.wishlist-img{
+    height:90px;
+    width:auto;
+}
+
+.checkout-img{
+    height:90px;
+    width:auto;
+}
+
+.nav-links{
+    list-style-type:none;
+    gap:15px;
+    margin:0px;
+    padding:0px;
+    display:flex;
+}
+
+.navbar:link{
+    text-decoration:none;
+}
+
+.navbar:visited{
+    text-decoration:none;
+}
+
+.banner{
+   margin-top:0; 
+}
+
+
+.Banner-img{
+    display:block;
+    height:auto;
+    width:100%;
+}
+
+.item:link{
+   text-decoration: none;
+    color:#2b2327;
+    font-size:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.image-container{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    
+}
+
+
+.image-container img{
+    max-width:100%;
+    height:auto;
+    width:100%; 
+    
+}
+/*.img-expand class is used to enable a css animation where each image is hovered they expand.*/
+.img-expand{
+    display:flex;
+    gap:20px;
+}
+
+.img-expand img{
+    width:100%;
+    height:auto;
+    transition:transform 0.4s ease;
+}
+
+.img-expand:hover img{
+    transform:scale(1.15);
+}
+
+.footer-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:left;
+    background-color: #2b2327;
+    padding:10px 20px;
+}
+
+.footer-link{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    
+}
+
+.email-img{
+   height:90px;
+   width:auto; 
+}
+
+.phone-img{
+    height:90px;
+    width:auto;
+}
+
+.phone{
+    font-size:16px;
+    color:rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+
+.address{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.copyright{
+    color:rgb(133, 130, 130);
+    text-align: right;
+}
+
+/*Use media queries to enable adaptability to mobile applications for clean UX design*/
+@media (max-width: 768px){
+    .navigation{
+        flex-direction:column;
+        align-items:center;
+
+    }
+    .nav-links{
+        flex-direction:row;
+        justify-content:center;
+        width:100%;
+        margin-top:10px;
+    }
+
+    .nav-links li a img{
+        height:70px;
+    }
+
+    .logo-img{
+        height:100px;
+    }
+
+    
+
+}
+
+
+

@@ -1,0 +1,168 @@
+html{
+    font-size:12pt;
+    text-align:center;
+    font-family:"Poppins",sans-serif;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-radius;
+    font-family:"Poppins",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+main{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-image: url(../Images/backdrop.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.forgot-password-wrapper h3{
+    font-size:16px;
+    text-align:center;
+    font-size:20px;
+
+   
+}
+.forgot-password-wrapper h1{
+    font-size:36px;
+    text-align:center;
+    font-size:40px;
+    font-weight: 1000;
+
+}
+
+
+
+.forgot-password-wrapper{
+    width:420px;
+    background:white;
+    color:#2b2327;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.forgot-password-wrapper h1{
+    font-size:36px;
+    text-align:center;
+    font-size:40px;
+    font-weight: 1000;
+}
+
+.forgot-password-wrapper .forgot-box{
+    position:relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    
+    
+}
+
+
+.forgot-password-wrapper p {
+    text-align:justify;
+}
+
+.forgot-box input{
+    width:98%;
+    height:98%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border: 2px solid #574750;
+    border-radius:40px;
+    font-size:16px;
+    color:rgb(0, 0, 0);
+  
+}
+
+.forgot-box input::placeholder{
+    color:#574750;
+    padding:20px;
+
+}
+
+
+.forgot-box i{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translate(-50%);
+    font-size:20px;
+    
+
+
+}
+
+.navigation{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #2b2327;
+    padding:10px 20px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.wrapper h1{
+    font-size:36px;
+    text-align:center;
+    font-size:40px;
+    font-weight: 1000;
+
+}
+
+.logo-img{
+    height:100px;
+    width:auto;
+}
+
+.login-img{
+    width:auto;
+    height:90px;
+
+}
+
+.forgot-password-wrapper .btn{
+    background-color:#2b2327;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border: radius 5px;
+    font-size:35px;
+    cursor:pointer;
+    height:auto;
+    max-width:100%;
+    width:100%;
+    border-radius:40px;
+
+
+}
+
+@media (max-width: 768px){
+    .navigation{
+        flex-direction:column;
+        align-items:center;
+
+    }
+    .nav-links{
+        flex-direction:row;
+        justify-content:center;
+        width:100%;
+        margin-top:10px;
+    }
+
+    .nav-links li a img{
+        height:70px;
+    }
+}

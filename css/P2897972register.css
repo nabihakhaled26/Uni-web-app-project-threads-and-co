@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-radius;
+    font-family:"Poppins",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-image: url(../Images/backdrop.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.wrapper{
+    height:auto;
+    width:400px;
+    background:white;
+    color:#2b2327;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size:36px;
+    text-align:center;
+    font-size:40px;
+    font-weight: 1000;
+
+}
+
+.wrapper .input-box{
+    position:relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    
+    
+}
+
+.input-box input{
+    width:98%;
+    height:98%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border: 2px solid #574750;
+    border-radius:40px;
+    font-size:16px;
+    color:rgb(0, 0, 0);
+  
+}
+
+.input-box input::placeholder{
+    color:#574750;
+    padding:20px;
+
+}
+
+.input-box i{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translate(-50%);
+    font-size:20px;
+
+
+}
+
+
+.wrapper .login-link{
+    font-size:14.5;
+    text-align:center;
+    margin:20px 0 15px;
+
+}
+
+.login-link p a{
+    color:#2b2327;
+    text-decoration:none;
+    font-weight: 600;
+
+}
+
+.login-link p a:hover{
+    text-decoration:underline;
+}
+
+.navigation{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #2b2327;
+    padding:10px 20px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.logo-img{
+    height:100px;
+    width:auto;
+}
+
+.login-img{
+    width:auto;
+    height:90px;
+
+}
+
+.wrapper .btn{
+    background-color:#2b2327;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border: radius 5px;
+    font-size:35px;
+    cursor:pointer;
+    height:auto;
+    max-width:100%;
+    width:100%;
+    border-radius:40px;
+
+
+}
+
+@media (max-width: 768px){
+    .navigation{
+        flex-direction:column;
+        align-items:center;
+
+    }
+    .nav-links{
+        flex-direction:row;
+        justify-content:center;
+        width:100%;
+        margin-top:10px;
+    }
+
+    .nav-links li a img{
+        height:70px;
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>
+            Reset Password | Threads&Co
+        </title>
+        <link rel="stylesheet" href="css/P2897972reset.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <nav class="navigation">
+                <a href="P2897972home.html" class="navbar">
+                    <img src="Images/Logo.jpg" alt="logo" class="logo-img">
+                </a>
+            </nav>
+        </header>
+        <main>
+            <div class="forgot-password-wrapper">
+                <form id="reset-form">
+                     <h1>Forgot your password?</h1>
+                     <h3>Reset your password</h3>
+                     <div class="forgot-box">
+                        <input type="password" name="current-password" id="current-password" placeholder="Current password" required>
+                        <label for="curent-password" ><i class="bx bx-lock-open"></i></label>
+                    </div>
+                    
+                    <p>your password must be at least 8-20 characters and include at least two of the following: uppercase,lowercase,number or symbol</p>
+                    <div class="forgot-box">
+                        <input type="password" name="new-password"  id="new-password"  placeholder="New password" required>
+                        <label for="forgot-password"><i class="bx bx-lock"></i></label>
+                    </div>
+                    <div class="forgot-box">
+                        <input type="password" name="confirm-password"  id="confirm-password" placeholder="confirm new password" required>
+                        <label type="forgot-password"><i class="bx bx-lock"></i></label>
+                    </div>
+                    <button type="submit" class="btn">Confirm</button>
+                </form>
+            </div>
+        </main>
+        <script type="module" src="./js/P2897972reset.js"></script>
+    </body>
+</html>
